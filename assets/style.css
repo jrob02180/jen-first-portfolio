@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav header {
+    width: 45%;
+    border: 1px red solid;
+}
+
+.nav ul {
+    width: 45%;
+    border: 1px red solid;
+    margin-left: 5%;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+}
+
+ul li {
+    display: inline;
+    margin-left: 10%;
+}
+
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutme h1 {
+    width: 20%;
+    border: 1px red solid;
+    border-right: 10px black solid;
+}
+
+.aboutme section {
+    width: 65%;
+    border: 1px red solid;
+    margin-left: 10%;
+}
