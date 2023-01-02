@@ -4,28 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
-    <section class="nav">
-        <header>
-            <h2>Jen Roberson</h2>
-        </header>
-        <ul>
-            <li>About Me</li>
-            <li>Work</li>
-            <li>Contact Me</li>
-            <li>Resume</li>
-        </ul>
+    <header class="nav">
+        <h2>Jen Roberson</h2>
+        <nav>
+            <ul>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div>
+            <img src="./images/profile.jpg" alt="profile pic">
+        </div>
     </section>
 
-    <section class="aboutme">
-        <h1>About Me</h1>
-        <section>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde explicabo consequatur, nobis accusantium quod doloribus fuga! Eius similique voluptatum possimus corrupti, voluptas mollitia ab cupiditate natus ipsam aliquid facere ratione.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perferendis minima quae mollitia amet placeat blanditiis ipsa adipisci eum necessitatibus deserunt vero, sapiente provident facilis rerum porro consectetur maxime aliquid?</p>
+    <section id="aboutme" class="aboutme">
+        <div class="title">
+            <h2>About Me</h2>
+        </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde explicabo consequatur, nobis accusantium quod doloribus fuga! Eius similique voluptatum possimus corrupti, voluptas mollitia ab cupiditate natus ipsam aliquid facere ratione.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perferendis minima quae mollitia amet placeat blanditiis ipsa adipisci eum necessitatibus deserunt vero, sapiente provident facilis rerum porro consectetur maxime aliquid?</p>
         </section>
     </section>
+
+    <section id="work" class="work">
+        <div class="title">
+            <h2>Work</h2>
+        </div>
+        <section class="projects">
+            <div class="projects-grid">
+                <a href="https://jrob02180.github.io/refactoring-challenge/"></a><img src="./images/social-media-marketing.jpg" alt="social medial marketing">
+                    <div class="project-label">
+                    <h3>Refactoring Challenge</h3>
+                    <p>HTML/CSS</p>
+                    </div>
+                </a>
+                <a href="#" target="_blank">
+                    <img src="./images/growingbook.jpg" alt="growing book">
+                        <div class="project-label">
+                            <h3>Future Project</h3>
+                            <p>JavaScript</p>
+                </a>
+                <a href="#" target="_blank"><img src="./images/Premium Vector _ Global network connection_.jpg" alt="global network connection">
+                    <div class="project-label">
+                        <h3>Future Project</h3>
+                        <p>Node</p>
+                </a>  
+            </div>
+        </section>
+    </section>
+
+    <footer id="contact-me">
+        <h2 class="title">Contact Me</h2>
+        <ul>
+            <li>555.555.5555</li>
+            <li>
+                <a href="mailto:jrob02180@gmail.com">jrob02180@gmail.com</a>
+            <li>
+                <a href="https://github.com/jrob02180" target="_blank">GitHub</a>
+        </ul>
+    </footer>
+
 </body>
 </html>
