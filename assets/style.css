@@ -40,7 +40,7 @@ header nav ul li a {
 }
 
 .banner {
-  background-image: url("../images/download.jpg");
+  background-image: url("./images/download.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
