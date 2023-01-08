@@ -23,6 +23,7 @@
   width: 25%;
   height: 15%;
   padding: 20px;
+  text-align: center;
   font-weight: bold;
   background-color: var(--secondary);
 }
