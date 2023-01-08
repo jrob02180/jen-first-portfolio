@@ -42,7 +42,7 @@ header nav ul li a {
 
 /* Styling for Banner */
 .banner {
-  background-image: url("./images/download.jpg");
+  background-image: url("../images/download.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -131,6 +131,10 @@ header nav ul li a {
   width: 100%;
   border: 5px var(--orange) solid;
   padding-bottom: 0;
+}
+
+.projects .future {
+  height: 300px;
 }
 
 /* Project Labels */
