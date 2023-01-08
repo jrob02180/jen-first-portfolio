@@ -8,4 +8,4 @@ This challenge was to create a portfolio for potential employers to view my proj
 
 https://jrob02180.github.io/jen-first-portfolio/
 
-![Profile Screenshot](./images/portfolio_screenshot.png)
+![Profile Screenshot](./assets/images/portfolio_screenshot.png)
