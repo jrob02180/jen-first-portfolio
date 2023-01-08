@@ -93,37 +93,35 @@ header nav ul li a {
 
 #work .images {
   width: 70%;
-  height: 50%;
-}
-
-.projects {
-  width: 45%;
 }
 
 .projects a img {
   width: 100%;
   border: 5px var(--orange) solid;
+  padding-bottom: 0;
 }
 
 .project-2 .projects {
   position: relative;
+  width: 50%;
+  height: 100%;
+  margin-top: 10px;
+  justify-content: space-between;
 }
-
 
 .project-2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
+
 
 .projects .project-label {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 15px;
+  right: 5px;
   color: var(--text-color-primary);
   background-color: var(--orange);
   width: 35%;
-  border-radius: 5px;
   justify-content: center;
   text-align: center;
   z-index: 2;
@@ -133,7 +131,6 @@ header nav ul li a {
   /* flex-basis: 100%; */
   position: relative;
   width: 100%;
-
 }
 
 #project-1 .marketing {
@@ -148,9 +145,14 @@ footer {
 
 footer ul li {
   display: inline-flex;
-  justify-content: space-evenly;
-  padding: 20px;
-  align-items: center;
+  padding-top: 20px;
+  padding-left: 120px;
   color: var(--text-color-primary);
-  text-decoration: none;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+footer ul li a {
+  color: var(--text-color-primary);
+  font-weight: bold;
 }
