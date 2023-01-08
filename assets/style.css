@@ -54,6 +54,18 @@ header nav ul li a {
   padding: 20px;
 }
 
+.banner .quote {
+  font-size: 40px;
+  display: flex;
+  width: 800px;
+  justify-content: flex-end;
+  color: var(--secondary);
+}
+
+.artist {
+  padding-left: 40px;
+}
+
 .title {
   border-right: 5px var(--orange) solid;
   color: var(--text-color-primary);
