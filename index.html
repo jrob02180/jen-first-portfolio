@@ -1,106 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="./assets/style.css" />
-</head>
+  <body>
+    <header class="nav">
+      <h1>Jen Roberson</h1>
+      <!-- Nav Bar -->
+      <nav>
+        <ul>
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header class="nav">
-    <h1>Jen Roberson</h1>
-    <nav>
+    <!-- Banner -->
+    <section class="banner">
+      <div>
+        <img src="./assets/images/profile.jpg" alt="profile pic" />
+      </div>
+      <div class="quote">
+        <blockquote>
+          <p>Speak life.</p>
+          <p class="artist">- TobyMac</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="aboutme">
+      <div class="title">
+        <h2>About Me</h2>
+      </div>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde explicabo
+        consequatur, nobis accusantium quod doloribus fuga! Eius similique
+        voluptatum possimus corrupti, voluptas mollitia ab cupiditate natus
+        ipsam aliquid facere ratione.
+        <br /><br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+        perferendis minima quae mollitia amet placeat blanditiis ipsa adipisci
+        eum necessitatibus deserunt vero, sapiente provident facilis rerum porro
+        consectetur maxime aliquid?
+      </p>
+    </section>
+
+    <!-- Work -->
+    <section id="work">
+      <div class="title">
+        <h2>Work</h2>
+      </div>
+      <div class="images">
+        <div id="project-1">
+          <div class="projects">
+            <a href="https://jrob02180.github.io/refactoring-challenge/"
+              ><img
+                src="./assets/images/social-media-marketing.jpg"
+                alt="social medial marketing"
+                class="marketing" />
+              <div class="project-label">
+                <h4>Refactoring Challenge</h4>
+                <h4>HTML/CSS</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="project-2">
+          <div class="projects">
+            <a href="#" target="_blank"
+              ><img src="./assets/images/growingbook.jpg" alt="growing book" />
+              <div class="project-label">
+                <h4>Future Project</h4>
+                <h4>JavaScript</h4>
+              </div>
+            </a>
+          </div>
+          <div class="projects">
+            <a href="#" target="_blank"
+              ><img
+                src="./assets/images/Premium Vector _ Global network connection_.jpg"
+                alt="global network connection" />
+              <div class="project-label">
+                <h4>Future Project</h4>
+                <h4>Node</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contactme">
+      <h2 class="title">Contact Me</h2>
       <ul>
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contactme">Contact Me</a></li>
+        <li>555.555.5555</li>
+        <li>
+          <a href="mailto:jrob02180@gmail.com">jrob02180@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/jrob02180" target="_blank">GitHub</a>
+        </li>
       </ul>
-    </nav>
-  </header>
-
-  <section class="banner">
-    <div>
-      <img src="./assets/images/profile.jpg" alt="profile pic" />
-    </div>
-    <div class="quote">
-      <blockquote>
-        <p>Speak life.</p>
-        <p class="artist">- TobyMac</p>
-      </blockquote>
-    </div>
-  </section>
-
-  <section id="aboutme">
-    <div class="title">
-      <h2>About Me</h2>
-    </div>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde explicabo
-      consequatur, nobis accusantium quod doloribus fuga! Eius similique
-      voluptatum possimus corrupti, voluptas mollitia ab cupiditate natus
-      ipsam aliquid facere ratione.
-      <br /><br />
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-      perferendis minima quae mollitia amet placeat blanditiis ipsa adipisci
-      eum necessitatibus deserunt vero, sapiente provident facilis rerum porro
-      consectetur maxime aliquid?
-    </p>
-  </section>
-
-  <section id="work">
-    <div class="title">
-      <h2>Work</h2>
-    </div>
-    <div class="images">
-      <div id="project-1">
-        <div class="projects">
-          <a href="https://jrob02180.github.io/refactoring-challenge/"><img src="./assets/images/social-media-marketing.jpg"
-              alt="social medial marketing" class="marketing">
-            <div class="project-label">
-              <h4>Refactoring Challenge</h4>
-              <h4>HTML/CSS</h4>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="project-2">
-        <div class="projects">
-          <a href="#" target="_blank"><img src="./assets/images/growingbook.jpg" alt="growing book">
-            <div class="project-label">
-              <h4>Future Project</h4>
-              <h4>JavaScript</h4>
-            </div>
-          </a>
-        </div>
-        <div id="right-image" class="projects">
-          <a href="#" target="_blank"><img src="./assets/images/Premium Vector _ Global network connection_.jpg"
-              alt="global network connection">
-            <div class="project-label">
-              <h4>Future Project</h4>
-              <h4>Node</h4>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer id="contactme">
-    <h2 class="title">Contact Me</h2>
-    <ul>
-      <li>555.555.5555</li>
-      <li>
-        <a href="mailto:jrob02180@gmail.com">jrob02180@gmail.com</a>
-      </li>
-
-      <li>
-        <a href="https://github.com/jrob02180" target="_blank">GitHub</a>
-      </li>
-    </ul>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
