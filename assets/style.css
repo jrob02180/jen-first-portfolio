@@ -58,7 +58,7 @@ header nav ul li a {
 .banner .quote {
   font-size: 40px;
   display: flex;
-  width: 900px;
+  width: 75%;
   justify-content: flex-end;
   color: var(--secondary);
 }
